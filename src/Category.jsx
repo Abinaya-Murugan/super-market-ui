@@ -3,6 +3,7 @@ import axios from "axios";
 import { error } from "jquery";
 import React,{useState,useEffect,Component} from "react";
 import B2 from './images/image.png';
+import B3 from './images/ingredients-healthy-foods-selection-white-wooden-background_35641-3000.jpg';
 import './index.css';
 import Product from './Product';
 import { useNavigate } from 'react-router-dom';
@@ -29,7 +30,7 @@ function Category()
     }, [])
     return (
         <div className="mt-6">
-            <img src={B2} className="banner-img" />
+            <img src={B3} className="banner-img" width="1600" height="500"/>
             <div style={{ display: 'flex', flexWrap: 'wrap', marginRight:'70' }}>
             {
                 data?.map((data) => 
