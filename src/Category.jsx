@@ -30,7 +30,7 @@ function Category()
     }, [])
     return (
         <div className="mt-6">
-            <img src={B3} className="banner-img" width="1600" height="500"/>
+            <img src={B3} className="banner-img" width="1519" height="450"/>
             <div style={{ display: 'flex', flexWrap: 'wrap', marginRight:'70' }}>
             {
                 data?.map((data) => 
